@@ -1,0 +1,38 @@
+| Purpose         | Naming convention              | Naming example       | Supplement                                     |
+|-----------------|--------------------------------|----------------------|------------------------------------------------|
+| Vue Components  | PascalCase                     | `UserProfile.vue`    | Capitalize each word in a compound word        |
+
+ component	
+ They are organized into subdirectories by function example:	
+	 components/
+	 ├── auth/
+	 │ ├── LoginForm.vue
+	 │ └── SignupForm.vue
+	 ├── notices/
+	 │ ├── NoticesList.vue
+	 │ └── NoticeDialog.vue
+	 └── crypto/
+	 ├── CoinsList.vue
+	 └── ExchangeRates.vue
+
+
+
+ Naming Best Practices		
+	 1. Use clear and descriptive names	
+	 - Avoid abbreviations and ambiguous names	
+	 - Make sure the purpose and content of the file are clearly understood from the name	
+	 2. Be consistent	
+	 - Use the same naming pattern for files of the same type	
+	 - Consistent naming conventions across the project	
+	 3. Split files at the right granularity	
+	 - Don't assign multiple responsibilities to a single file	
+	 - Group related features together	
+	 4. Utilizing index files	
+	 - Use `index.ts` to group multiple exports	
+	 - Keep your directory structure simple	
+		
+ Points to note		
+	 File names should be written in English	
+	 Do not use special characters or spaces	
+	 File names should not be too short or too long	
+	Avoid similarly named files in the same directory	
