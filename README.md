@@ -11,7 +11,7 @@ Clone this repo and give your project a custom folder name (e.g. `MyProject`):
 
 ### Option 1 — With Git (keeps history)
 ```bash
-git clone https://github.com/mdibrahim20/nuxt-vuetify-pinia-ts-starter.git MyProject
+git clone https://github.com/mdibrahim20/nuxt-vuetify-pinia-ts-starter.git <your-project-name>
 cd MyProject
 npm install
 npm run dev
