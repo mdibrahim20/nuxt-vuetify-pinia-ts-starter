@@ -1,23 +1,20 @@
-# Nuxt Minimal Starter
+# Nuxt 3 + Vuetify 3 + Pinia + TypeScript Starter
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+🚀 A ready-to-use starter template with **Nuxt 3**, **Vuetify 3**, **Pinia**, and **TypeScript** preconfigured.  
+Use this to bootstrap new projects quickly without repeating setup.
 
-## Setup
+---
 
-Make sure to install dependencies:
+## 📦 Setup
 
+Clone this repo and give your project a custom folder name (e.g. `MyProject`):
+
+### Option 1 — With Git (keeps history)
 ```bash
-# npm
+git clone https://github.com/mdibrahim20/nuxt-vuetify-pinia-ts-starter.git MyProject
+cd MyProject
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+npm run dev
 ```
 
 ## Development Server
